@@ -1,0 +1,114 @@
+{
+  "delivery": {
+    "id": 123,
+    "status": "started",
+    "user": {
+      "id": 123,
+      "mobile": "9999999999",
+      "firstName": "customer",
+      "lastName": "name"
+    },
+    "address": {
+      "id": 1234,
+      "label": "Home 1",
+      "name": "Logistics Partner",
+      "mobile": "9999999999",
+      "doorNum": "#51",
+      "buildingDetails": "Big One",
+      "road": "Wide Enough",
+      "area": "Bustling with markets",
+      "city": "BANGALORE",
+      "pincode": "560068",
+      "latitude": "12.892384",
+      "longitude": "77.641905",
+      "isServiceable": true
+    },
+    "orders": [
+      {
+        "id": 123,
+        "pod": {
+          "id": 123,
+          "podToCollect": 1234,
+          "isPodCompleted": false
+        },
+        "numItems": 2,
+        "items": [
+          {
+            "id": 123,
+            "productId": 123,
+            "productName": "product name (100 gms)",
+            "price": 16,
+            "quantity": 1
+          },
+          {
+            "id": 123,
+            "productId": 123,
+            "productName": "product name (100 gms)",
+            "price": 16,
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "id": 123,
+        "pod": null,
+        "numItems": 3,
+        "items": [
+          {
+            "id": 123,
+            "productId": 123,
+            "productName": "product name (100 gms)",
+            "price": 16,
+            "quantity": 1
+          },
+          {
+            "id": 123,
+            "productId": 123,
+            "productName": "product name (100 gms)",
+            "price": 16,
+            "quantity": 1
+          },
+          {
+            "id": 123,
+            "productId": 123,
+            "productName": "product name (100 gms)",
+            "price": 16,
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "id": 123,
+        "pod": {
+          "id": 123,
+          "podToCollect": 1234,
+          "isPodCompleted": false
+        },
+        "numItems": 3,
+        "items": [
+          {
+            "id": 123,
+            "productId": 123,
+            "productName": "product name (100 gms)",
+            "price": 16,
+            "quantity": 1
+          },
+          {
+            "id": 123,
+            "productId": 123,
+            "productName": "product name (100 gms)",
+            "price": 16,
+            "quantity": 1
+          },
+          {
+            "id": 123,
+            "productId": 123,
+            "productName": "product name (100 gms)",
+            "price": 16,
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  }
+}

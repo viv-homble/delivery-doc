@@ -1,0 +1,60 @@
+{
+  "slot": {
+    "id": 123,
+    "startDatetime": "2024-10-18T12:00:00+05:30",
+    "endDatetime": "2024-10-18T14:00:00+05:30",
+    "finalizationDatetime": "2024-10-18T11:20:00+05:30"
+  },
+  "deliveries": [
+    {
+      "id": 123,
+      "status": "started",
+      "user": {
+        "id": 123,
+        "mobile": "9999999999",
+        "firstName": "customer",
+        "lastName": "name"
+      },
+      "address": {
+        "id": 1234,
+        "label": "Home 1",
+        "name": "Logistics Partner",
+        "mobile": "9999999999",
+        "doorNum": "#51",
+        "buildingDetails": "Big One",
+        "road": "Wide Enough",
+        "area": "Bustling with markets",
+        "city": "BANGALORE",
+        "pincode": "560068",
+        "latitude": "12.892384",
+        "longitude": "77.641905",
+        "isServiceable": true
+      },
+      "orders": [
+        {
+          "id": 123,
+          "pod": {
+            "id": 123,
+            "podToCollect": 1234,
+            "isPodCompleted": false
+          },
+          "numItems": 2
+        },
+        {
+          "id": 123,
+          "pod": null,
+          "numItems": 3
+        },
+        {
+          "id": 123,
+          "pod": {
+            "id": 123,
+            "podToCollect": 1234,
+            "isPodCompleted": false
+          },
+          "numItems": 4
+        }
+      ]
+    }
+  ]
+}

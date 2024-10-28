@@ -1,0 +1,12 @@
+{
+  "riders": [
+    {
+      "id": 123,
+      "name": "rider name"
+    },
+    {
+      "id": 123,
+      "name": "rider name"
+    }
+  ]
+}

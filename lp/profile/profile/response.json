@@ -1,0 +1,42 @@
+{
+  "mobile": "9059100715",
+  "firstName": "Logistics",
+  "lastName": "Partner",
+  "email": "lp@homble.in",
+  "isStaff": false,
+  "isLp": true,
+  "addresses": [
+    {
+      "id": 1234,
+      "label": "Home 1",
+      "isDefault": true,
+      "name": "Logistics Partner",
+      "mobile": "9999999999",
+      "doorNum": "#51",
+      "buildingDetails": "Big One",
+      "road": "Wide Enough",
+      "area": "Bustling with markets",
+      "city": "BANGALORE",
+      "pincode": "560068",
+      "latitude": "12.892384",
+      "longitude": "77.641905",
+      "isServiceable": true
+    },
+    {
+      "id": 5678,
+      "label": "Home 2",
+      "isDefault": true,
+      "name": "Logistics Partner",
+      "mobile": "9999999999",
+      "doorNum": "#404",
+      "buildingDetails": "Dilapidated",
+      "road": "Shady",
+      "area": "Desolate",
+      "city": "BANGALORE",
+      "pincode": "560068",
+      "latitude": "12.892384",
+      "longitude": "77.641905",
+      "isServiceable": true
+    }
+  ]
+}
