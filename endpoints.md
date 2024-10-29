@@ -14,7 +14,7 @@
 
 ## Login
 
-![Login Screen](./lp/login/login.png)
+<img src="./lp/login/login.png" alt="Login Screen" width="1000">
 
 1. <b>POST send-otp/ </b>
 
@@ -52,7 +52,7 @@
 
 Will just show user(rider) info for now - same like Account -> My Profile on the consumer app
 
-![Profile Screen](./lp/profile/profile.png)
+<img src="./lp/profile/profile.png" alt="Profile Screen" width="1000">
 
 1. <b>GET profile/ </b>
 
@@ -66,7 +66,7 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
 ## Collect
 
-![Collect Screen](./lp/collect/collect.jpg)
+<img src="./lp/collect/collect.jpg" alt="Collect Screen" width="1000">
 
 <details><summary>Details and updates:</summary>
 
@@ -102,7 +102,7 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
 ## Deliveries
 
-![Deliveries Screen](./lp/deliveries/deliveries.jpg)
+<img src="./lp/deliveries/deliveries.jpg" alt="Deliveries Screen" width="1000">
 
 <details><summary>Details and updates:</summary>
 
@@ -129,7 +129,7 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
 ### Delivery Modal
 
-![Deliveries Modal](./lp/deliveries/delivery-modal.jpg)
+<img src="./lp/deliveries/delivery-modal.jpg" alt="Delivery Modal" width="600">
 
 <details><summary>Details and updates:</summary>
 
@@ -203,7 +203,7 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
 ## Route Planning
 
-![Route Planning Screen](./ops/route-planning/route-planning.jpg)
+<img src="./ops/route-planning/route-planning.jpg" alt="Route Planning Screen" width="1000">
 
 <details><summary>Details and updates:</summary>
 
@@ -275,7 +275,7 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
 6. <b>POST deliveries/ </b>
 
-   ![Add Delivery Modal](./ops/deliveries/add-delivery.jpg)
+   <img src="./ops/deliveries/add-delivery.jpg" alt="Add Delivery Modal" width="600">
 
    <details><summary>Details and Updates</summary>
 
@@ -294,7 +294,7 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
 7. <b>POST routes/ </b>
 
-   ![Add Route Modal](./ops/routes/add-route.jpg)
+   <img src="./ops/routes/add-route.jpg" alt="Add Route Modal" width="600">
 
    <details><summary>Details and Updates</summary>
 
@@ -315,7 +315,7 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
 ### Routes Accordian Body
 
-![Routes Accordian Body](./ops/route-planning/delivery-accordian-body.jpg)
+<img src="./ops/route-planning/delivery-accordian-body.jpg" alt="Routes Accordian Body" width="1000">
 
 <details><summary>Details and Updates</summary>
 
@@ -327,7 +327,7 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
 1. <b>PATCH routes/<route_id>/allocate-rider/ </b>
 
-   ![Rider Selection Modal](./ops/route-planning/rider-selection.jpg)
+   <img src="./ops/route-planning/rider-selection.jpg" alt="Rider Selection Modal" width="600">
 
    <details><summary>Details and Updates</summary>
 
@@ -348,7 +348,7 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
 2. <b>PATCH deliveries/<delivery_id>/assign-route/ </b>
 
-   ![Route Selection Modal](./ops/routes/route-selection.jpg)
+   <img src="./ops/routes/route-selection.jpg" alt="Route Selection Modal" width="600">
 
    <details><summary>Details and Updates</summary>
 
@@ -370,9 +370,9 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
 ### Delivery Modal
 
-![Delivery Modal](./ops/deliveries/delivery-modal.jpg)
+<img src="./ops/deliveries/delivery-modal.jpg" alt="Delivery Modal" width="600">
 
-![Delivery Modal Extended](./ops/deliveries/delivery-modal-extended.jpg)
+<img src="./ops/deliveries/delivery-modal-extended.jpg" alt="Delivery Modal Extended" width="600">
 
 <details><summary>Details and updates:</summary>
 
@@ -424,7 +424,7 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
 ## Live Deliveries
 
-![Live Deliveries Screen](./ops/live-deliveries/live-deliveries.jpg)
+<img src="./ops/live-deliveries/live-deliveries.jpg" alt="Live Deliveries Screen" width="1000">
 
 <details><summary>Details and updates:</summary>
 
@@ -450,9 +450,9 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
 ### Delivery Modal
 
-![Delivery Modal](./ops/deliveries/delivery-modal.jpg)
+<img src="./ops/deliveries/delivery-modal.jpg" alt="Delivery Modal" width="600">
 
-![Delivery Modal Extended](./ops/deliveries/delivery-modal-extended.jpg)
+<img src="./ops/deliveries/delivery-modal-extended.jpg" alt="Delivery Modal Extended" width="600">
 
 <details><summary>Details and updates:</summary>
 
