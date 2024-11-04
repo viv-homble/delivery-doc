@@ -398,7 +398,7 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
    Permissions: OPS100
 
-   Request: NONE
+   [Request](./ops/deliveries/mark-payment/request.json)
 
    [Response](./ops/deliveries/mark-payment/response.json)
 
@@ -418,7 +418,7 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
    Permissions: OPS100
 
-   Request: NONE
+   [Request](./ops/deliveries/mark-delivered/request.json)
 
    [Response](./ops/deliveries/mark-delivered/response.json)
 
@@ -478,7 +478,7 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
    Permissions: OPS100
 
-   Request: NONE
+   [Request](./ops/deliveries/mark-payment/request.json)
 
    [Response](./ops/deliveries/mark-payment/response.json)
 
@@ -498,7 +498,7 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
    Permissions: OPS100
 
-   Request: NONE
+   [Request](./ops/deliveries/mark-delivered/request.json)
 
    [Response](./ops/deliveries/mark-delivered/response.json)
 
