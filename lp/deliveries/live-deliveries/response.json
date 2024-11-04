@@ -9,12 +9,6 @@
     {
       "id": 123,
       "status": "started",
-      "user": {
-        "id": 123,
-        "mobile": "9999999999",
-        "firstName": "customer",
-        "lastName": "name"
-      },
       "address": {
         "id": 1234,
         "label": "Home 1",
