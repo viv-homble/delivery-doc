@@ -3,7 +3,7 @@
 ### Base URL - logistics.homble.in/
 
 <i>
-<u>A first time lp</u>: An lp must first register using the homble consumer app. Upon creating the profile, an ops associate can approve the lp as can_be_lp. The lp can then open and start using the lp app
+<u>A first time lp</u>: An lp must first register using the homble consumer app. Upon creating the profile, Growth/Ops head can mark can_be_lp flag on User - TBF. The lp can then open and start using the lp app
 
 <br>
 
@@ -80,7 +80,7 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 </details>
 <br>
 
-1. <b>GET assigned_deliveries/ </b>
+1. <b>GET deliveries_to_collect/ </b>
 
    Gets all the slot level deliveries that are assigned to the rider
 
@@ -151,9 +151,9 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
    [Response](./lp/deliveries/deliveries/response.json)
 
-2. <b>GET deliveries/<delivery_id>/otp/ </b>
+2. <b>POST deliveries/<delivery_id>/resend-otp/ </b>
 
-   Get otp for a delivery
+   Resend otp to customer for a delivery
 
    Permissions: LP100
 
@@ -247,11 +247,11 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
    Permissions: IsAdmin
 
-   [Request](./ops/route-planning/address/request.json)
+   Request - NONE
 
    [Response](./ops/route-planning/address/response.json)
 
-   [Resposne - In case of error](./ops/route-planning/address/error-response.json)
+   [Response - In case of error](./ops/route-planning/address/error-response.json)
 
 4. <b>GET slots/<slot_id>/routes/ </b>
 
@@ -382,9 +382,9 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 </details>
 <br>
 
-1. <b>PATCH deliveries/<delivery_id>/otp/ </b>
+1. <b>POST deliveries/<delivery_id>/resend-otp/ </b>
 
-   Marks all POD payments related to delivery
+   Resend OTP to the customer for the delivery.
 
    Permissions: OPS100
 
@@ -392,7 +392,7 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
    [Response](./ops/deliveries/otp/response.json)
 
-2. <b>PATCH deliveries/<delivery_id>/mark-payment/ </b>
+2. <b>PATCH deliveries/<delivery_id>/mark-pod-collected/ </b>
 
    Marks all POD payments related to delivery
 
@@ -416,7 +416,7 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
    Marks a delivery as completed and all the corresponding orders as delivered
 
-   Permissions: LP100
+   Permissions: OPS100
 
    Request: NONE
 
@@ -462,9 +462,9 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 </details>
 <br>
 
-1. <b>PATCH deliveries/<delivery_id>/otp/ </b>
+1. <b>POST deliveries/<delivery_id>/resend-otp/ </b>
 
-   Marks all POD payments related to delivery
+   Resend OTP to the customer for the delivery.
 
    Permissions: OPS100
 
@@ -472,7 +472,7 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
    [Response](./ops/deliveries/otp/response.json)
 
-2. <b>PATCH deliveries/<delivery_id>/mark-payment/ </b>
+2. <b>PATCH deliveries/<delivery_id>/mark-pod-collected/ </b>
 
    Marks all POD payments related to delivery
 
@@ -496,7 +496,7 @@ Will just show user(rider) info for now - same like Account -> My Profile on the
 
    Marks a delivery as completed and all the corresponding orders as delivered
 
-   Permissions: LP100
+   Permissions: OPS100
 
    Request: NONE
 
@@ -513,3 +513,4 @@ Modify `place_or_prepare` method in Order model to either
    (OR)
    <br>
 2. Add order to an existing delivery
+3. Update the confirmation notification template, with the OTP too.
