@@ -1,3 +1,18 @@
 {
-  "address": {}
+  "address": {
+    "id": 1,
+    "label": "Pickup address",
+    "isDefault": false,
+    "name": "Hehee",
+    "mobile": "999999999",
+    "doorNum": "123-1",
+    "buildingDetails": "Jaxy",
+    "road": "Maxy",
+    "area": "Local",
+    "city": "BANGALORE",
+    "pincode": "560068",
+    "latitude": "2.123456",
+    "longitude": "-2.123456",
+    "isServiceable": true
+  }
 }
